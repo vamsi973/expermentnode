@@ -4,7 +4,7 @@ const app = express()
 const PORT = 3000
 
 app.listen(PORT, () => {
-  console.log(`Server is listening on ${server.address().address}:${server.address().port}`);
+  console.log(`Server is listening on ${PORT}`);
 })
 
 app.get('/', (req, res) => {
